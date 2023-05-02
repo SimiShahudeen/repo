@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "poppins", sans-serif;
+}
+
+/* --------------Navbar------------------ */
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+  /* z-index high valued is on top */
+}
+
+.bold {
+  font-size: 25px;
+}
+
+li {
+  padding: 5px;
+}
+
+a.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+
+a.nav-link:hover {
+  border-bottom: 2px solid blue;
+  transition: .1s;
+}
+
+/* -------------- Home ------------------- */
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+section {
+  min-height: 90vh;
+  display: flex;
+  /* items will be flexible according to viewport in display:flex */
+  justify-content: center;
+  /* horizontal center in justify-content: center; */
+  align-items: center;
+  /* vertical center in align-items: center; */
+
+}
+
+/* -------------- About ------------------- */
+
+#about {
+  border-radius: 50px;
+  /* width: 60rem;
+  height: 35rem; */
+  /* 1rem=10px */
+}
+
+/* -------------- Services ------------------- */
+
+.card img {
+  height: 300px;
+}
+
+.card img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+/* -------------- Contact ------------------- */
+
+form {
+  padding: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .2),
+    -1px -1px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 30px ;
+}

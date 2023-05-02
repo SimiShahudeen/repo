@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYP
+  OMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-
+  Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  <!--linked bootstrap css and js file and also js popper-->
+  <title>Responsive Website 01</title>
+</head>
+
+<body>
+
+  <!---------- Navbar ----------->
+
+  <div class="container-fluid col-10">
+    <!-- total bootstrap 12 columns -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <b class="bold">Responsive Website 01</b>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!------------ Home ------------->
+
+    <section id="home">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12 order-1 pt-5">
+          <h1 class="display-4">Welcome To <br> <span>My Website</span></h1>
+          <!-- display(1-5) -->
+          <p class="my-lg-2 my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Officiis minima, ad perspiciatis consequuntur hic dicta
+            sapiente ducimus nobis dolor sunt error dolorem corporis
+            vitae, pariatur illo. Vel voluptate at facere!</p>
+          <button class="btn btn-primary my-lg-3 my-3">Get Started</button>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-sm-2">
+          <img src="./imgaes/temps-1.jpg" class="img-fluid" alt="">
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- -------------- About -------------------  -->
+
+    <section id="about">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3">
+          <img src="./imgaes/temp-2.jpg" class="img-fluid" alt="">
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 pt-5">
+          <h6 style="font-size: 50px;">ABOUT US</h6>
+          <h1 class="display-5"> <span>Responsive Website</span></h1>
+          <p class="my-lg-2 my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Officiis minima, ad perspiciatis consequuntur hic dicta
+            sapiente ducimus nobis dolor sunt error dolorem corporis
+            vitae, pariatur illo. Vel voluptate at facere!</p>
+          <button class="btn btn-primary my-lg-3 my-3">Get Started</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!---------- Services ----------->
+    <section id="services">
+      <div class="row">
+        <h1 class="text-center">OUR SERVICES</h1>
+        <div class="col-md-4 my-2">
+          <div class="card shadow">
+            <div class="inner">
+              <img src="./imgaes/bnr-3.jpg" alt="" class="card-img-top ">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Responsive Websites</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Facere quia </p>
+              <a href="#" type="button" class="btn btn-success">Learn More</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-4 my-2">
+          <div class="card shadow">
+            <div class="inner">
+              <img src="./imgaes/bnr-1.png" alt="" class="card-img-top ">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Responsive Websites</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Facere quia </p>
+              <a href="#" type="button" class="btn btn-success">Learn More</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-4 my-2">
+          <div class="card shadow">
+            <div class="inner">
+              <img src="./imgaes/bnr-2.jpg" alt="" class="card-img-top ">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Responsive Websites</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Facere quia </p>
+              <a href="#" type="button" class="btn btn-success">Learn More</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------- contact ----------------- -->
+    <section id="contact">
+      <div class="col-lg-4 col-md-6 col-12">
+        <form action="">
+          <div class="mb-3 text-center"> 
+            <h3 class="py-lg-1 py-3">CONTACT FORM</h3>
+          </div>
+          <div class="mb-3">
+            <label for="name1" class="form-label">Name</label>
+            <input type="text" name="" id="name1" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="email1" class="form-label">Email</label>
+            <input type="email" name="" id="email1" class="form-control">
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 py-lg-2 py-3">
+            <button class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+  </div>
+
+
+</body>
+
+</html>
